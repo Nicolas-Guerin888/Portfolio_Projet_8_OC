@@ -1,0 +1,9 @@
+To-Do list :
+1 - Rédiger le code Desktop en html et css par section
+2 - Développer le fichier Data.json pour les langages
+3 - Développer le fichier Data.json pour les projets
+
+Pense-bête : 
+Pour la section Contact, pour rester en statique, utiliser : Formspree / EmailJS
+
+Déployer sur GitHub page
