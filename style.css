@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #1E1E1E;
+    --secondary-color: #F5F1ED;
+    --third-color: #93C2F1;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 200px;
+    line-height: 140;
+    color: white;
+    text-shadow: none;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 170px;
+    color: var(--main-color);
+}
+
+h3 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 55px;
+    color: white;
+}
+
+h4 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: var(--main-color);
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--main-color);
+}
+
+.logo {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--main-color);
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    border: solid 3px var(--main-color);
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.CTA {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--main-color);
+    background-color: var(--third-color);
+    cursor: pointer;
+}
