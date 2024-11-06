@@ -14,9 +14,9 @@ h1 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 200px;
-    line-height: 140;
+    line-height: 0.69;
     color: white;
-    text-shadow: none;
+    background-color: var(--main-color);
 }
 
 h2 {
@@ -28,9 +28,9 @@ h2 {
 
 h3 {
     font-family: "Manrope", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 55px;
-    color: white;
+    color: var(--main-color);
 }
 
 h4 {
@@ -67,4 +67,14 @@ p {
     color: var(--main-color);
     background-color: var(--third-color);
     cursor: pointer;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.CTA:active {
+    background-color: var(--secondary-color);
 }
