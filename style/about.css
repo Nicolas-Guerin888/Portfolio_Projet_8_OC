@@ -1,0 +1,69 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+
+.about p {
+    margin-bottom: 48px;
+}
+
+.about__title {
+    margin: -45px 0 40px -3px;
+    align-self: flex-start;
+}
+
+.about__up {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.about__up__picture {
+    padding: 0 50px 50px 100px;
+}
+
+.about__up__line {
+    position: absolute;
+    z-index: 1;
+    right: 30px;
+    bottom: 60px;
+    height: 70px;
+    width: 70px;
+    border-right: solid 2px var(--third-color);
+    border-bottom: solid 2px var(--third-color);
+}
+
+.about__up__paragraph-part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about__down {
+    width: 90%;
+}
+
+.about__down__button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 64px;
+}
+
+.about__down__button button {
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    border-radius: 2px;
+    width: 25%;
+}
+
+.about__down__button button:active {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+
+
+
+
+
