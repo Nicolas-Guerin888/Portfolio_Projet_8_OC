@@ -1,0 +1,62 @@
+.contact {
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__title {
+    margin: -45px 0 40px -3px;
+    align-self: flex-start;
+    color: white;
+}
+
+.contact__form {
+    width: 70%;
+}
+
+.contact__form label {
+    color: var(--secondary-color);
+    font-family: "Manrope", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contact__form input {
+    height: 50px;
+    border-radius: 5px;
+    padding-left: 8px;
+}
+
+.contact__form textarea {
+    height: 190px;
+    border-radius: 5px;
+    padding: 8px 8px 0 8px;
+}
+
+.contact__form__upper-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contact__form__upper-part--name, 
+.contact__form__upper-part--email {
+    width: 49.5%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.contact__form__lower-part {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+.contact__form button {
+    margin: auto;
+    padding: 0 40px 0 40px;
+    margin-bottom: 64px;
+}
+

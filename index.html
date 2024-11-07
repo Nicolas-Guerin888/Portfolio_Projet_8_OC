@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="style/about.css">
     <link rel="stylesheet" href="style/skills.css">
     <link rel="stylesheet" href="style/portfolio.css">
+    <link rel="stylesheet" href="style/contact.css">
 </head>
 <body>
     <header class="navbar">
@@ -195,6 +196,26 @@
                 </div>
             </div>
             <hr>
+        </section>
+        <section class="contact">
+            <h2 class="contact__title">CONTACT</h2>
+            <form class="contact__form" action="">
+                <div class="contact__form__upper-part">
+                    <div class="contact__form__upper-part--name">
+                        <label for="name">Nom & Prénom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="contact__form__upper-part--email">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                </div>
+                <div class="contact__form__lower-part">
+                    <label for="text">Message</label>
+                    <textarea name="text" id="text" required></textarea>
+                </div>
+                <button class="CTA" type="submit">ENVOYER</button>
+            </form>
         </section>
     </main>
     <footer></footer>   
