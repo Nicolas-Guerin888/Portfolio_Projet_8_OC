@@ -1,0 +1,49 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio__title {
+    margin: -45px 0 -60px -8px;
+    align-self: flex-start;
+}
+
+.portfolio hr {
+    border: none;
+    height: 2px;
+    width: 70%;
+    background-color: var(--third-color);
+    margin: 64px 0 64px 0;
+}
+
+.portfolio h4 {
+    color: var(--main-color);
+    font-size: 32px;
+}
+
+.portfolio p {
+    font-size: 24px;
+    margin: 16px 0 16px 0;
+}
+
+.portfolio__version-A, 
+.portfolio__version-B {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio__button {
+    font-family: "Manrope", sans-serif;
+    font-size: 32px;
+    border-radius: 2px;
+    width: 100%;
+}
+
+.portfolio__button:active {
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
