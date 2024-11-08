@@ -9,6 +9,11 @@
     position: fixed;
     z-index: 99;
 }
+
+.navbar .logo {
+    cursor: pointer;
+}
+
 .navbar__link {
     list-style: none;
     display: flex;
@@ -16,6 +21,7 @@
     font-weight: 400;
     font-size: 18px;
     color: var(--main-color);
+    cursor: pointer;
 }
 
 .navbar__link--left li {
