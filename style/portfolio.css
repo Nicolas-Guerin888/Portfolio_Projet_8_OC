@@ -20,11 +20,19 @@
 .portfolio h4 {
     color: var(--main-color);
     font-size: 32px;
+    font-weight: 800;
+    border: solid 2px var(--main-color);
+    padding-left: 5px;
 }
 
 .portfolio p {
     font-size: 24px;
     margin: 16px 0 16px 0;
+}
+
+.portfolio img {
+    max-width: 520px;
+    border: solid 2px var(--main-color);
 }
 
 .portfolio__version-A, 
@@ -36,11 +44,17 @@
     align-items: center;
 }
 
+.portfolio__version-A__left, 
+.portfolio__version-B__right {
+    width: 50%;
+}
+
 .portfolio__button {
     font-family: "Manrope", sans-serif;
-    font-size: 32px;
+    font-size: 24px;
     border-radius: 2px;
     width: 100%;
+    text-decoration: none;
 }
 
 .portfolio__button:active {
