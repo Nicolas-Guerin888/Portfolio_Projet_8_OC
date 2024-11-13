@@ -107,7 +107,7 @@
 }
 
 .skills__in-progress {
-    height: 320px;
+    height: 340px;
     width: 100%;
     background-color: var(--main-color);
     display: flex;
@@ -131,10 +131,16 @@
 .skills__in-progress__logo--containerImg {
     width: 200px;
     height: 200px;
+    display: flex;
+    align-items: center;
 }
 
-.skills__in-progress__logo--containerImg img {
+.skills__in-progress__logo--containerImg img.landscape {
+    width: 100%;
+    height: auto;
+}
+
+.skills__in-progress__logo--containerImg img.portrait {
     width: auto;
     height: 100%;
-
 }

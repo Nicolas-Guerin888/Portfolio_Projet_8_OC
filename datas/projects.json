@@ -7,7 +7,7 @@
         "problems": "Créer le back-end du site pour permettre une authentification des utilisateurs, ainsi que la création, lecture, modification et effacement des différents livres depuis une base de données sécurisée, via une API",
         "technologies": ["JavaScript", "Express", "Mongoose", "Node.JS", "MongoDB Atlas", "Git & GitHub"],
         "githubLink": "https://github.com/Nicolas-Guerin888/Mon_Vieux_Grimoire_P6_OC",
-        "image": "assets/pictures-project/Mon-Vieux-Grimoire.png"
+        "image": "assets/pictures-project/Mon-Vieux-Grimoire.webp"
       },
       {
         "id": 4,
@@ -16,7 +16,7 @@
         "problems": "Créer une interface utilisateur dynamique conforme à une maquette et responsive, en réutilisant des composants grâce à React",
         "technologies": ["React", "React Router", "Sass Scss", "Yarn", "Git & GitHub"],
         "githubLink": "https://github.com/Nicolas-Guerin888/Kasa_projet_5_OC",
-        "image": "assets/pictures-project/Kasa.png"
+        "image": "assets/pictures-project/Kasa.webp"
       },
       {
         "id": 3,
@@ -25,7 +25,7 @@
         "problems": "Optimisation du temps de chargement, corrections de bugs, amélioration de l'accessibilité, et ajout du référencement local et sur les réseaux sociaux.",
         "technologies": ["Google Lighthouse", "GTmetrix", "Schéma.org", "Google Rich Snippet", "Opengraph", "Wave", "Git & GitHub"],
         "githubLink": "https://github.com/Nicolas-Guerin888/Nina_Carducci_4_OpenClassrooms",
-        "image": "assets/pictures-project/Nina-Carducci.png"
+        "image": "assets/pictures-project/Nina-Carducci.webp"
       },
       {
         "id": 2,
@@ -34,7 +34,7 @@
         "problems": "Créer un site web dynamique permettant sa mise à jour, depuis une interface dédiée à la cliente",
         "technologies": ["HTML", "CSS", "JavaScript", "Git & GitHub"],
         "githubLink": "https://github.com/Nicolas-Guerin888/Sophie_Buel_projet_3_OpenClassrooms",
-        "image": "assets/pictures-project/Sophie-Bluel.png"
+        "image": "assets/pictures-project/Sophie-Bluel.webp"
       },
       {
         "id": 1,
@@ -43,7 +43,7 @@
         "problems": "Créer une interface utilisateur conforme à une maquette et responsive.",
         "technologies": ["HTML", "CSS", "Git & GitHub"],
         "githubLink": "https://github.com/Nicolas-Guerin888/Booki_projet_2_OpenClassrooms",
-        "image": "assets/pictures-project/Booki.png"
+        "image": "assets/pictures-project/Booki.webp"
       }
     ]
   }

@@ -1,0 +1,62 @@
+{ 
+    "skills": [
+        {
+            "id": 1,
+            "name": "HTML 5",
+            "logo": "assets/logos/html.png"
+        },
+        { 
+            "id": 2,
+            "name": "CSS 3",
+            "logo": "assets/logos/css.png" 
+        },
+        {
+            "id": 3,
+            "name": "JavaScript",
+            "logo": "assets/logos/javascript.png" 
+        },
+        {
+            "id": 4,
+            "name": "React",
+            "logo": "assets/logos/react.png" 
+        },
+        {
+            "id": 5,
+            "name": "Node.JS",
+            "logo": "assets/logos/nodejs.png" 
+        },
+        {
+            "id": 6,
+            "name": "Express",
+            "logo": "assets/logos/express.png" 
+        },
+        {
+            "id": 7,
+            "name": "MongoDB",
+            "logo": "assets/logos/mongodb.png" 
+        },
+        {
+            "id": 8,
+            "name": "Sass",
+            "logo": "assets/logos/Sass.png" 
+        }
+    ]
+,
+    "skills_in_progress": [
+        {
+            "id":1,
+            "name": "Java",
+            "logo": "assets/logos/java.png"
+        },
+        {
+            "id":2,
+            "name": "Typescript",
+            "logo": "assets/logos/Typescript.png"
+        },
+        {
+            "id":3,
+            "name": "Tailwind",
+            "logo": "assets/logos/Tailwind.png"
+        }
+    ]
+}
