@@ -5,9 +5,12 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 1px 5px 1px grey;
+    /*box-shadow: 0 1px 5px 1px grey;*/
     position: fixed;
+    top: 0;
+    left: 0;
     z-index: 99;
+    transition: box-shadow 0.3s, top 0.3s;
 }
 
 .navbar .logo {
@@ -30,4 +33,12 @@
 
 .navbar__link--right li {
     margin-left: 88px;
+}
+
+.navbar-shadow {
+    box-shadow: 0 1px 5px 1px grey;
+}
+
+.hidden-navbar {
+    top: -100px;
 }
