@@ -23,12 +23,14 @@
 }
 
 .contact__form input {
+    font-family: "Manrope", sans-serif;
     height: 50px;
     border-radius: 5px;
     padding-left: 8px;
 }
 
 .contact__form textarea {
+    font-family: "Manrope", sans-serif;
     height: 190px;
     border-radius: 5px;
     padding: 8px 8px 0 8px;

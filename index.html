@@ -20,6 +20,15 @@
     <script src="scripts/portfolio.js" defer></script>
     <script src="scripts/skills.js" defer></script>
     <script src="scripts/header.js" defer></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer>
+    </script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("mjnQG05umZisdHDAV")
+        })()
+    </script>
+    <script src="scripts/contact.js" defer></script>
 </head>
 <body>
     <header class="navbar">
@@ -112,7 +121,7 @@
         </section>
         <section class="contact">
             <h2 class="contact__title">CONTACT</h2>
-            <form class="contact__form" action="">
+            <form class="contact__form" id="contact-form">
                 <div class="contact__form__upper-part">
                     <div class="contact__form__upper-part--name">
                         <label for="name">Nom & Prénom</label>
@@ -124,8 +133,8 @@
                     </div>
                 </div>
                 <div class="contact__form__lower-part">
-                    <label for="text">Message</label>
-                    <textarea name="text" id="text" required></textarea>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" required></textarea>
                 </div>
                 <button class="CTA" type="submit">ENVOYER</button>
             </form>
