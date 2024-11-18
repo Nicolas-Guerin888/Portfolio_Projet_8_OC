@@ -62,3 +62,35 @@
     margin-bottom: 64px;
 }
 
+@media (max-width: 1000px) { 
+    .contact__title {
+        margin: 0;
+        align-self: center;
+    } 
+    .contact__form label {
+        font-size: 3.5vw;
+    }
+}
+@media (max-width: 600px) { 
+    .contact__form {
+        width: 85%;
+    }    
+    .contact__form__upper-part {
+        flex-direction: column;
+    }
+    .contact__form__upper-part--name, 
+    .contact__form__upper-part--email {
+    width: 100%;
+    }
+    .contact__form button {
+        margin: auto;
+        padding: 0 60px 0 60px;
+        margin-bottom: 64px;
+        font-size: 7vw;
+    }   
+}
+@media (max-width: 450px) { 
+    .contact__form label {
+        font-size: 4.5vw;
+    }
+}

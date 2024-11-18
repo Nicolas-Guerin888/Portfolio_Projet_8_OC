@@ -1,6 +1,6 @@
 footer {
     background-color: var(--third-color);
-    height: 200px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,13 +12,33 @@ footer .logo {
 }
 
 .social-media-links {
-    width: 15%;
+    min-width: 90px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 footer em {
     font-style: normal;
     font-family: "Manrope", sans-serif;
+}
+
+@media (max-width: 900px) { 
+    footer {
+        margin-bottom: 64px;
+    }
+}
+@media (max-width: 600px) { 
+    footer {
+        margin-bottom: 56px;
+    }
+}
+@media (max-width: 400px) { 
+    footer {
+        margin-bottom: 45px;
+    }
+    footer em {
+        text-align: center;
+    }
 }

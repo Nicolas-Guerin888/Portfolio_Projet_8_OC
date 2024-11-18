@@ -15,6 +15,7 @@
 .home__job {
     background-color: var(--third-color);
     width: 50%;
+    min-width: 750px;
     height: 60px;
     margin-bottom: 96px;
     position: relative;
@@ -22,7 +23,7 @@
 
 .home__job h3 {
     position: absolute;
-    right: -1px;
+    right: -5px;
     bottom: -17px;
     z-index: 2;
 }
@@ -39,4 +40,60 @@
 
 .home__CTA {
     margin-bottom: 64px;
+}
+
+@media (max-width: 900px) { 
+    .home {
+        padding: 0;
+        background-image: none;
+        background-color: var(--main-color);
+    }
+    .home__title {
+        margin: 32px 0 72px 24px;
+        font-size: 30vw;
+    }
+    .home__job {
+        min-width: auto;
+        width: 90%;
+        margin-bottom: 80px;
+    }
+    .home__job h3 {
+        font-size: 6vw;
+    }
+    .home__CTA {
+        font-size: 5vw;
+        margin-bottom: 56px;
+    }
+}
+@media (max-width: 700px) { 
+    .home__job {
+        height: 50px;
+        margin-bottom: 64px;
+    }
+    .home__rectangle {
+        height: 50px;
+    }
+    .home__job h3 {
+        right: -5px;
+        bottom: -13px;    
+    }
+    .home__CTA {
+        margin-bottom: 48px;
+    }
+}
+@media (max-width: 450px) { 
+    .home__job {
+        height: 30px;
+        margin-bottom: 48px;
+    }
+    .home__rectangle {
+        height: 30px;
+    }
+    .home__job h3 {
+        right: -4px;
+        bottom: -11px;    
+    }
+    .home__CTA {
+        margin-bottom: 40px;
+    }
 }

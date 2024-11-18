@@ -1,3 +1,4 @@
+// Ce code intègre les skills acquisent
 fetch('datas/skills.json')
 .then(response => response.json())
 .then(data => { 
@@ -20,6 +21,7 @@ fetch('datas/skills.json')
 })
 .catch(error => console.error('Erreur lors de la récupération des skills', error))
 
+// Ce code intègre les skills en cours d'acquisition
 fetch('datas/skills.json')
 .then(response => response.json())
 .then(data => { 
