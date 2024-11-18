@@ -27,6 +27,7 @@
 
 .about__up__picture img {
     width: 100%;
+    min-width: 250px;
     border-radius: 10px;
 }
 
@@ -90,6 +91,7 @@
     }
     .about__up__picture img {
         border-radius: 50%;
+        min-width: auto;
         height: 100%;
     }
     .about__down__button button {

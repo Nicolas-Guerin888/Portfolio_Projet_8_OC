@@ -1,35 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="robots" content="index, follow">
+    <title>Nicolas Guerin - Développeur Web Full-Stack</title>
+    <meta name="description" content="Je suis actuellement en fin de formation comme développeur Web Full-Stack. Je vous invite à entrer sur ce site afin de 
+    vous présenter mes diverses compétences, ainsi que mon portfolio.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/header.css">
-    <link rel="stylesheet" href="style/home.css">
-    <link rel="stylesheet" href="style/about.css">
-    <link rel="stylesheet" href="style/skills.css">
-    <link rel="stylesheet" href="style/portfolio.css">
-    <link rel="stylesheet" href="style/contact.css">
-    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/style.min.css">
+    <link rel="stylesheet" href="style/header.min.css">
+    <link rel="stylesheet" href="style/home.min.css">
+    <link rel="stylesheet" href="style/about.min.css">
+    <link rel="stylesheet" href="style/skills.min.css">
+    <link rel="stylesheet" href="style/portfolio.min.css">
+    <link rel="stylesheet" href="style/contact.min.css">
+    <link rel="stylesheet" href="style/footer.min.css">
     <script src="https://kit.fontawesome.com/0f62163b16.js" crossorigin="anonymous"></script>
-    <script src="scripts/anchor.js" defer></script>
-    <script src="scripts/links.js" defer></script>
-    <script src="scripts/portfolio.js" defer></script>
-    <script src="scripts/skills.js" defer></script>
-    <script src="scripts/header.js" defer></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer>
-    </script>
-    <script type="text/javascript">
+    <script src="scripts/anchor.min.js" defer></script>
+    <script src="scripts/links.min.js" defer></script>
+    <script src="scripts/portfolio.min.js" defer></script>
+    <script src="scripts/skills.min.js" defer></script>
+    <script src="scripts/header.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+    <script>
         (function(){
             emailjs.init("mjnQG05umZisdHDAV")
         })()
     </script>
-    <script src="scripts/contact.js" defer></script>
+    <script src="scripts/contact.min.js" defer></script>
 </head>
 <body>
     <header class="navbar">
@@ -67,7 +68,7 @@
                     </p>
                 </div>
                 <div class="about__up__picture">
-                    <img src="assets/images/Photo_CV.JPEG" width="240px" height="auto" alt="Photo de face de Nicolas Guérin">
+                    <img src="assets/images/Photo_CV.webp" alt="Photo de face de Nicolas Guérin">
                 </div>
             </div>
             <div class="about__down">
@@ -92,7 +93,7 @@
             </div>
         </section>
         <section class="skills">
-            <img class="skills__picture-office" src="assets/images/office desk image.webp" alt="Photo représentant un bureau de travail vue de haut">
+            <img class="skills__picture-office" src="assets/images/office-desk-image.webp" alt="Photo représentant un bureau de travail vue de haut">
             <h2 class="skills__title">MES COMPETENCES</h2>
             <div class="skills__card-skills">
                 <img src="assets/images/img-card-skills.webp" alt="image représentant des lignes de code sur un écran d'ordinateur, avec un léger effet de flou">
@@ -143,10 +144,10 @@
     </main>
     <footer>
         <div class="logo">NG</div>
-        <section class="social-media-links">
+        <div class="social-media-links">
             <i class="fa-brands fa-square-github fa-2xl" id="github"></i>
             <i class="fa-brands fa-linkedin fa-2xl" id="linkedin"></i>
-        </section>
+        </div>
         <em>© 2024 Nicolas Guérin - Tous droits réservés</em>
     </footer>   
 </body>
