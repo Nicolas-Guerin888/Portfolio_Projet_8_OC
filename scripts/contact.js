@@ -13,9 +13,17 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         message: message
     })
     .then((response) => {
-        alert("Email envoyé avec succès !")
+        const successMessage = document.getElementById('success-message')
+        successMessage.style.display = 'block'
+
+        document.getElementById('contact-form').reset()
+
+        setTimeout(() => { successMessage.style.display = 'none'}, 5000)
     })
     .catch((error) => {
-        alert("Erreur lors de l'envoi de l'email :", error)
+        const errorMessage = document.getElementById('error-message')
+        errorMessage.style.display = 'block'
+
+        setTimeout(() => { errorMessage.style.display = 'none'}, 5000)
     })
 })
